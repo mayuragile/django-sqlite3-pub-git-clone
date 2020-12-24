@@ -16,4 +16,4 @@ WORKDIR "/django-sqlite3-pub-git-clone"
 
 RUN ls
 
-RUN pip install requirements.txt
+RUN pip install -r requirements.txt
