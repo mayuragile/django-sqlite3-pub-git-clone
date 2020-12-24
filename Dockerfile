@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.8
 
 ENV PYTHONUNBUFFERED=1
 
@@ -12,7 +12,7 @@ RUN git clone https://github.com/mayuragile/django-sqlite3-pub-git-clone.git
 
 RUN ls
 
-WORKDIR "/django-sqlite3-pub-git-clone.git"
+WORKDIR "/django-sqlite3-pub-git-clone"
 
 RUN ls
 

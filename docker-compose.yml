@@ -3,7 +3,7 @@ web:
   environment:
     MYENV: EXAMPLE
   volumes:
-    - .:/django-sqlite3-pub-git-clone.git
+    - .:/django-sqlite3-pub-git-clone
 web_migrate:
   extends:
     service: web
