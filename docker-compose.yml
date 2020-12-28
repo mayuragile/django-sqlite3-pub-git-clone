@@ -1,9 +1,5 @@
 web:
   build: .
-  environment:
-    MYENV: EXAMPLE
-  volumes:
-    - .:/code
 web_migrate:
   extends:
     service: web
